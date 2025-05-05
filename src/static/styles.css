@@ -196,6 +196,35 @@ button:hover {
   display: none;
 }
 
+/* Estilo para a listagem de participantes */
+.participants-list {
+  margin-top: 10px;
+  padding-left: 20px;
+  list-style: none;
+}
+
+.participants-list li {
+  margin-bottom: 8px;
+  padding: 8px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.participants-list li::before {
+  content: "👤";
+  font-size: 1.2rem;
+  color: #1a237e;
+}
+
+.participants-list li:hover {
+  background-color: #e8f5e9;
+  border-color: #a5d6a7;
+}
+
 footer {
   text-align: center;
   margin-top: 30px;
