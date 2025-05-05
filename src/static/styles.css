@@ -71,6 +71,25 @@ section h3 {
   font-size: 1.8rem;
 }
 
+.activity-card ul {
+  margin-top: 10px;
+  padding-left: 20px;
+  list-style: disc;
+  color: #333;
+  font-size: 0.9rem;
+}
+
+.activity-card ul li {
+  margin-bottom: 5px;
+}
+.activity-card ul li a {
+  color: #1a237e;
+  text-decoration: none;
+}
+.activity-card ul li a:hover {
+  text-decoration: underline;
+}
+
 .activity-card {
   margin-bottom: 15px;
   padding: 15px;
